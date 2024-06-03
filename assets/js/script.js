@@ -66,7 +66,7 @@ const Page = {
                 .then((response) => response.json())
                 .then((result) => {
                     Page.languages.en = result;
-                    fetch("/assets/languages/kr.json", requestOptions)
+                    fetch("./assets/languages/kr.json", requestOptions)
                     .then((response) => response.json())
                     .then((result) => {
                         Page.languages.kr = result;
@@ -150,7 +150,6 @@ const Page = {
             if(target.getAttribute("data-page") == null) {
                 do {
                     target = target.parentElement;
-                    console.log(target)
                 } while (target.getAttribute("data-page") == null);
             }
             const page = target.getAttribute("data-page");
@@ -162,7 +161,7 @@ const Page = {
                 redirect: "follow"
               };
               
-            fetch(page, requestOptions)
+            fetch(`./${page}`, requestOptions)
             .then((response) => response.text())
             .then(Page.page.process)
             .catch(console.error);
