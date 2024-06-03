@@ -66,7 +66,7 @@ const Page = {
                 .then((response) => response.json())
                 .then((result) => {
                     Page.languages.en = result;
-                    fetch("http://127.0.0.1:5500/assets/languages/kr.json", requestOptions)
+                    fetch("/assets/languages/kr.json", requestOptions)
                     .then((response) => response.json())
                     .then((result) => {
                         Page.languages.kr = result;
