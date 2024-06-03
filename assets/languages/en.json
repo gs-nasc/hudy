@@ -1,0 +1,21 @@
+{
+    "shop": "Shop",
+    "projects": "projects",
+    "scroll": "scroll",
+    "down": "down",
+    "back": "back to home",
+    "projectDetails": "Project details",
+    "products": {
+        "tags": {
+            "handmade": "hand-made",
+            "unique": "unique",
+            "unities12": "12 unities"
+        },
+        "year": "Year",
+        "size": "Size",
+        "material": "Material",
+        "package": "Package",
+        "price": "Price",
+        "delivery": "Delivery"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "shop": "가게",
+    "projects": "프로젝트",
+    "scroll": "아래로",
+    "down": "스크롤",
+    "back": "맨 위로 돌아가기",
+    "projectDetails": "프로젝트 세부정보",
+    "products": {
+        "tags": {
+            "handmade": "핸드메이드",
+            "unique": "고유한",
+            "unities12": "12개 한정판"
+        },
+        "year": "제작년도",
+        "size": "크기",
+        "material": "재료",
+        "package": "패키지",
+        "price": "가격",
+        "delivery": "배달"
+    }
+}
